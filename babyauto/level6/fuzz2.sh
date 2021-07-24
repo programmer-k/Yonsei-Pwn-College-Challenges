@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 unzip AFL.zip
-cd AFL && make && cd ..
+cd AFL && make clean all && cd ..
 
 tar -xvf binutils-2.25.tar.bz2
 cd binutils-2.25
