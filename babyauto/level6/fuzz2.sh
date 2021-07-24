@@ -10,4 +10,4 @@ make
 cd ..
 
 mkdir findings_dir
-AFL/afl-fuzz -d -i AFL/testcases/others/elf -o findings_dir /opt/all-binutils/inst/2.25/readelf -a @@
+AFL/afl-fuzz -d -i AFL/testcases/others/elf -o findings_dir /home/ctf/binutils-2.25/binutils/readelf -a @@
