@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-0x6976726670;
 
 byte_list = '65 67 6a 6c 6d 6f 74 75 77 78'.split()
 
