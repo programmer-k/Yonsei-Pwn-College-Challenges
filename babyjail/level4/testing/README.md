@@ -1,0 +1,1 @@
+Use the same strategy with the previous teaching problem.
