@@ -14,5 +14,5 @@ Running the following commands will lead you to the flag.
 ```
 gcc -nostdlib -static shellcode.s -o shellcode-elf​
 objcopy --dump-section .text=shellcode-raw shellcode-elf​
-/babyjail_level5_teaching1 / < ~/shellcode-raw
+/babyjail_level6_teaching1 / < ~/shellcode-raw
 ```

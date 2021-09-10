@@ -1,0 +1,1 @@
+Use the same strategy and commands to solve this problem.
