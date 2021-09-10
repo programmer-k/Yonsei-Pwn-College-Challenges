@@ -1,0 +1,1 @@
+Use the same strategy and commands for teaching problem.
