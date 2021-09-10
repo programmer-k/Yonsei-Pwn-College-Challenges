@@ -1,0 +1,1 @@
+Use the same manner with the teaching problem.
