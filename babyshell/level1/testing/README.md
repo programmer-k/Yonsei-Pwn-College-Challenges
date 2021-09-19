@@ -1,0 +1,1 @@
+Use the same code and strategy to solve the problem.
