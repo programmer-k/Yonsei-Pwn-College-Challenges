@@ -74,7 +74,6 @@ If the given flag byte value is equal to the iteration time, runs loop the progr
 Thus, now we need to provide different shellcode not only for each byte value but also for each iteration.
 We need to create 12800 shellcodes.
 100 (the number of byte values) * 128 (the number of iterations for each byte value) = 12800
-```
 
 The following command will make 12800 shellcodes for you.
 ```
