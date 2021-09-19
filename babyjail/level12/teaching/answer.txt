@@ -1,0 +1,10 @@
+# First method
+pwn_college{o6kTGj5su_xQpJlM:INsDwuUoP9/RXxUEL6IzW} # First trial
+pwn_college{o6kTGj5su_xPpJlM:IMsDwuUoP9/QXxUDL6JzX} # Second trial
+pwn_college{o6kTGj5su_x?pJlM:I?sDwuUoP9/?XxU?L6?z?} # Combine first and second, setting ? as different.
+
+# Second method
+pwn_college{o5kTFj4su_xKpIlM9HMsCwuToP8.QXxUDL5IzW}
+pwn_college{o5kTFj4su_xPpIlM9HMsCwuTD!$!!!0!2L5IzW}
+pwn_college{o5kTFj4su_xPpIlM9HMsC$!!!0!.QXxUDL5Iz(}
+pwn_college{o5kTFj4su_xPpIlM9HMsCwuToP8.QXxUDL5IzW} # Answer
