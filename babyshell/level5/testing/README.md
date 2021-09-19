@@ -1,0 +1,1 @@
+Use the same method from the previous problem.
