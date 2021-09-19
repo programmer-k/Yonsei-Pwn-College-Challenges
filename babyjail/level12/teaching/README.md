@@ -29,7 +29,7 @@ In fact, I first tried with 1 second loop, but it did not work. Thus, I moved to
 ```
 mkdir shellcode
 ./generate_assembly.py
-./compile_assembly.py
+./compile_assembly.sh
 ```
 
 Now, let's talk about `main.c`.
@@ -79,7 +79,7 @@ The following command will make 12800 shellcodes for you.
 ```
 mkdir new_shellcode
 ./new_generate_assembly.py
-./new_compile_assembly.py
+./new_compile_assembly.sh
 ```
 
 Run the following commands will lead you to the flag!
