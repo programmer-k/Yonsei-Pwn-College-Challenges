@@ -1,0 +1,1 @@
+Solve with the same manner.
