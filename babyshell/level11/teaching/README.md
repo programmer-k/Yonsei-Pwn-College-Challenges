@@ -13,3 +13,11 @@ sendfile(1, 0, 0, 0x80);
 ```
 
 Writing a corresponding shellcode and passing it to the challenge will net you to the flag.
+
+There are two things that you have to be careful.
+Firstly, `sendfile` does not support file descriptor opened with `O_APPEND` flag. You should not use it.
+Secondly, you first have to run the following code before running the challenge.
+```
+touch out
+chmod 777 out
+```
