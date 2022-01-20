@@ -38,3 +38,5 @@ The `libc` library is the same, so you do not have to find another ROP gadget fo
 Now, `run.py` becomes a little bit more complicated.
 You need to give three inputs and extract one intermediate output.
 That's it.
+
+By the way, it is more easy to debug with separate `strace` process on a separate terminal instead of running `strace` inside python.
