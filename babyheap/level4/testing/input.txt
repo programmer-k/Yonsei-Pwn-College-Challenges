@@ -1,0 +1,5 @@
+malloc
+661
+free
+read_flag
+puts
