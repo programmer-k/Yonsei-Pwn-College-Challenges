@@ -21,12 +21,12 @@ This can be done via a backdoor as shown below.
 ```
 pcVar2 = strstr((char *)local_88,"REPEAT");
 if (pcVar2 == (char *)0x0) {
-puts("Goodbye!");
-uVar3 = 0;
+    puts("Goodbye!");
+    uVar3 = 0;
 }
 else {
-puts("Backdoor triggered! Repeating vuln()");
-uVar3 = vuln(local_9c,local_a0);
+    puts("Backdoor triggered! Repeating vuln()");
+    uVar3 = vuln(local_9c,local_a0);
 }
 ```
 
