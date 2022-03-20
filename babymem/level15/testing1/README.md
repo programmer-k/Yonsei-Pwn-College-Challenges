@@ -1,0 +1,1 @@
+Apply the same stategy.
