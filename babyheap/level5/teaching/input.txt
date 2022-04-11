@@ -1,0 +1,14 @@
+malloc
+0
+160
+malloc
+1
+160
+free
+0
+free
+1
+read_flag
+free
+1
+puts_flag
