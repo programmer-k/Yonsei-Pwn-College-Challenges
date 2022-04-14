@@ -5,6 +5,7 @@ However, previous attack does not work now.
 Please refer to the following code snippets.
 ```
 // read_flag command
+long * local_138;
 iVar1 = open("/flag",0);
 read(iVar1,local_138 + 2,0x80);
 ```
@@ -19,9 +20,9 @@ else {
 }
 ```
 
-As you can see, the flag data is written to the heap memory beginning from index 2.
+As you can see, the flag data is written to the heap memory beginning from index 16.
 
-This means the first two bytes remain zero.
+This means the first 16 bytes remain zero.
 
 Consequently, we cannot pass the check for `puts_flag` command and the program will prints `Not authorized!`.
 
